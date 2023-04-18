@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4.5</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: center;
+            background-color: lightgreen;
+            color:white;
+            border-radius: 30px;
+            margin-bottom: 50px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            padding-bottom: 20px;
+        }
+        .ordered{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .unordered{
+            display: flex;
+            font-size: 18px;
+            padding: 10px;
+            margin-bottom: 10px;
+            justify-content: center;
+        }
+        .unordered:nth-child(2n){
+            background-color: lightblue;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Кімнатні квіти</h2>
+    </div>
+
+    <div class="content">
+        <div>
+        <ol>
+            <li class="ordered">Квітучі</li>
+                <ul>
+                    <li class="unordered">Антуріум</li>
+                    <li class="unordered">Молочай Миля</li>
+                    <li class="unordered">Бугенвілія</li>
+                    <li class="unordered">Бромелія</li>
+                </ul>
+        </ol>
+        </div>
+        <div>
+            <ol start="2">
+            <li class="ordered">Ампельні</li>
+                <ul>
+                    <li class="unordered">Діхондра</li>
+                    <li class="unordered">Бальзамін</li>
+                    <li class="unordered">Ахіменес</li>
+                    <li class="unordered">Акаліфа</li>
+                </ul>
+            </ol>
+        </div>
+        <div>
+            <ol start="3">
+            <li class="ordered">Сукуленти</li>
+                <ul>
+                    <li class="unordered">Агава</li>
+                    <li class="unordered">Алое</li>
+                    <li class="unordered">Літопс</li>
+                    <li class="unordered">Ечеверія</li>
+                </ul>
+            </ol>
+        </div>
+        <div>
+            <ol start="4">
+            <li class="ordered">Кактуси</li>
+                <ul>
+                    <li class="unordered">Мамілярія</li>
+                    <li class="unordered">Гачконосний</li>
+                    <li class="unordered">Ехінопсіс</li>
+                    <li class="unordered">Астрофітум</li>
+                </ul>
+            </ol>
+        </div>
+        </ol>
+    </div>
+</body>
+</html>
